@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.status-online {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.status-online::before {
+    content: '●';
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+}
+
+.status-offline {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.status-offline::before {
+    content: '●';
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+}
+
+.latency-low {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.latency-medium {
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.latency-high {
+    color: #dc3545;
+    font-weight: 600;
+}
