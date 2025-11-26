@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Node.js
+node_modules/
+package-lock.json
+index.js.map
+
+# Parcel
+.parcel-cache/
+dist/
+
+# Logs and temporary files
+*.log
+error.log
+data.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,32 @@
+{
+  "name": "server-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel static/SystemMonitor.jsx --dist-dir static/dist",
+    "build": "parcel build static/SystemMonitor.jsx --dist-dir static/dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naiomit4-design/Server-Status.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/naiomit4-design/Server-Status/issues"
+  },
+  "homepage": "https://github.com/naiomit4-design/Server-Status#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.554.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.5.0"
+  }
+}
